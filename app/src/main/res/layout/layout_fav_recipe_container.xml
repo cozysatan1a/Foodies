@@ -6,7 +6,7 @@
 
         <variable
             name="Result"
-            type="com.animsh.appita.data.database.entity.FavoriteEntity" />
+            type="com.cozysatan1a.foodies.data.database.entity.FavoriteEntity" />
 
     </data>
 

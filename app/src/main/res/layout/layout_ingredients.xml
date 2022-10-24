@@ -6,7 +6,7 @@
 
         <variable
             name="Ingredient"
-            type="com.animsh.appita.models.ExtendedIngredient" />
+            type="com.cozysatan1a.foodies.models.ExtendedIngredient" />
 
     </data>
 

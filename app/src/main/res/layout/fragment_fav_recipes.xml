@@ -7,11 +7,11 @@
 
         <variable
             name="viewModel"
-            type="com.animsh.appita.viewmodels.MainViewModel" />
+            type="com.cozysatan1a.foodies.viewmodels.MainViewModel" />
 
         <variable
             name="adapter"
-            type="com.animsh.appita.adapters.FavRecipeAdapter" />
+            type="com.cozysatan1a.foodies.adapters.FavRecipeAdapter" />
     </data>
 
     <RelativeLayout
