@@ -48,7 +48,7 @@ class AboutBottomSheetFragment : BottomSheetDialogFragment() {
             appVersion.text = appVersionTxt
 
             repoLink.setOnClickListener {
-                val url: Uri = Uri.parse("https://github.com/animsh/Appita")
+                val url: Uri = Uri.parse("https://github.com/cozysatan1a/Foodies")
                 val intent = Intent(Intent.ACTION_VIEW, url)
                 if (intent.resolveActivity(requireContext().packageManager) != null) {
                     startActivity(intent)
@@ -56,15 +56,11 @@ class AboutBottomSheetFragment : BottomSheetDialogFragment() {
             }
 
             linkedInLink.setOnClickListener {
-                val recipeUrl: Uri = Uri.parse("https://www.linkedin.com/in/animshmore/")
-                val intent = Intent(Intent.ACTION_VIEW, recipeUrl)
-                if (intent.resolveActivity(requireContext().packageManager) != null) {
-                    startActivity(intent)
-                }
+
             }
 
             githubLink.setOnClickListener {
-                val recipeUrl: Uri = Uri.parse("https://github.com/animsh")
+                val recipeUrl: Uri = Uri.parse("https://github.com/cozysatan1a")
                 val intent = Intent(Intent.ACTION_VIEW, recipeUrl)
                 if (intent.resolveActivity(requireContext().packageManager) != null) {
                     startActivity(intent)
@@ -72,12 +68,7 @@ class AboutBottomSheetFragment : BottomSheetDialogFragment() {
             }
 
             mailLink.setOnClickListener {
-                val intent = Intent(Intent.ACTION_VIEW)
-                val data = Uri.parse(
-                    "mailto:animsh.more@gmail.com?subject=" + Uri.encode("Regarding Appita:")
-                )
-                intent.data = data
-                startActivity(intent)
+
             }
         }
     }
