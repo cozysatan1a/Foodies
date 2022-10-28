@@ -6,7 +6,7 @@ package com.cozysatan1a.foodies.util
 class Constants {
     companion object {
         const val BASE_URL = "https://api.spoonacular.com"
-        const val API_KEY = "77eb217b1ae643d69e73c74ab581fffa"
+        const val API_KEY = "c5f98105e9d34ddda9bda44153941062"
 
         // API QUERY
         const val QUERY_SEARCH = "query"
